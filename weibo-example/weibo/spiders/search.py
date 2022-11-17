@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 from urllib.parse import unquote
 
 import scrapy
-import weibo.utils.util as util
+import weibo.weibo.utils.util as util
 from scrapy.exceptions import CloseSpider
 from scrapy.utils.project import get_project_settings
 from weibo.items import WeiboItem

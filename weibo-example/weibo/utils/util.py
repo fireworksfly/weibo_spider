@@ -1,7 +1,7 @@
 import sys
 from datetime import datetime, timedelta
 
-from weibo.utils.region import region_dict
+from weibo.weibo.utils import region_dict
 
 
 def convert_weibo_type(weibo_type):

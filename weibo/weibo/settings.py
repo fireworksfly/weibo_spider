@@ -13,8 +13,9 @@ SPIDER_MODULES = ['weibo.spiders']
 NEWSPIDER_MODULE = 'weibo.spiders'
 
 # 需要搜索的关键词
-KEYWORD_LIST = ['许嵩']
 
+KEYWORD_LIST = ['许嵩']
+# KEYWORD_LIST = 'E:\code\weibo_spider\关键词.txt'
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 # USER_AGENT = 'weibo (+http://www.yourdomain.com)'
 
