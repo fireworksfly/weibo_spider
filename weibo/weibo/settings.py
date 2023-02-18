@@ -18,10 +18,9 @@ DEFAULT_REQUEST_HEADERS = {
               "application/signed-exchange;v=b3;q=0.9",
     "accept-encoding": "gzip, deflate, br",
     "accept-language": "zh-CN,zh;q=0.9",
-    "Cookie": "WBPSESS=Qik6v-NJ1OTrztpiSCXt4RItdxFIw7bM6Aea6gAzyPhajpueAL85oE7pU3zeBh-9nSKFSir77mGcSBDkd-foIt_bJ5PuarIQZek_x1-aizkgojNhzvGAtRgpOaSexsI6UK6S12U8R7gKFBS-pGnTUg==; SINAGLOBAL=226603410468.21353.1675857391950; PC_TOKEN=1e0691877e; SUBP=0033WrSXqPxfM725Ws9jqgMF55529P9D9WhmbK51ne4MvVyncpuMV5Y-5JpX5KMhUgL.Foq01hz41K.Xehe2dJLoI7fKMs8EINSsdG._Mc_4; ALF=1678523285; SSOLoginState=1675931285; SCF=AgTQlClAQiITenETcANhr8MWRrzV499brXt1EbvhtxFx8CpFML_2Z6Qt3CMShUlp2pshTLKCgJNs7VQyZWsYrtE.; SUB=_2A25O4N7FDeRhGeBN41AY-SfIyz-IHXVtl7cNrDV8PUNbmtAKLXikkW9NRDwJDkve5a4YbBNL7TKbbQZU6zU6qU9B; XSRF-TOKEN=wzC6vjzHMhCgWMes2yCPfF3q; UPSTREAM-V-WEIBO-COM=35846f552801987f8c1e8f7cec0e2230; _s_tentry=weibo.com; Apache=7690382574662.704.1675931356567; ULV=1675931356628:2:2:2:7690382574662.704.1675931356567:1675857391967",
-    "referer": "https://weibo.com/",
     "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 "
-                  "Safari/537.36 "
+                  "Safari/537.36 ",
+    "Cookie": 'SINAGLOBAL=6680457046308.304.1662132659025; UOR=,,www.baidu.com; SUBP=0033WrSXqPxfM725Ws9jqgMF55529P9D9WhmbK51ne4MvVyncpuMV5Y-5JpX5KMhUgL.Foq01hz41K.Xehe2dJLoI7fKMs8EINSsdG._Mc_4; PC_TOKEN=01853dcd07; ALF=1679312729; SSOLoginState=1676720730; SCF=AiwrpbAOmZ8gs5e3aAt0FgekBOCWtgjpWUD1Ik4zmoEuaJzcXqgVlLkHCHDf8Ozv2PqQNq45oToRlCvoUb9DtwE.; SUB=_2A25O9MoKDeRhGeBN41AY-SfIyz-IHXVtg7zCrDV8PUNbmtAGLWfRkW9NRDwJDoQETVbv1BNXGJvibjpInF9k14g4; _s_tentry=login.sina.com.cn; Apache=4091242875055.7715.1676720732966; ULV=1676720732981:10:2:1:4091242875055.7715.1676720732966:1675314758482; webim_unReadCount=%7B%22time%22%3A1676720745511%2C%22dm_pub_total%22%3A2%2C%22chat_group_client%22%3A0%2C%22chat_group_notice%22%3A0%2C%22allcountNum%22%3A37%2C%22msgbox%22%3A0%7D'
 
 }
 # 需要搜索的关键词
@@ -32,6 +31,10 @@ KEYWORD_LIST = ['许嵩']
 START_DATE = '2023-02-01'
 # 搜索的终止日期，为yyyy-mm-dd形式，搜索结果包含该日期
 END_DATE = '2023-02-02'
+
+# 从45到50之间选择，哪个抓的数据多选择哪个
+PAGE_COMPARE = 46
+
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 # USER_AGENT = 'weibo (+http://www.yourdomain.com)'
